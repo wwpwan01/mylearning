@@ -1,6 +1,6 @@
 package com.wwp.netty.server;
 
-import io.netty.channel.EventLoopGroup;
+//import io.netty.channel.EventLoopGroup;
 
 /**
  * @author wwp
@@ -13,6 +13,6 @@ import io.netty.channel.EventLoopGroup;
 public class Server {
 
     public static void main(String[] args) {
-        EventLoopGroup boosGroup = EventLoop
+//        EventLoopGroup boosGroup = EventLoop
     }
 }

@@ -4,7 +4,7 @@ package com.wwp.factory;
  * @author wwp
  * @version 1.0.0
  * @ClassName ShapeFactory.java
- * @Description TODO
+ * @Description 工厂方法
  * @createTime 2020-11-10 15:41:00
  */
 public class ShapeFactory {

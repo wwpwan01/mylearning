@@ -1,6 +1,8 @@
 package com.wwp;
 
 
+import java.util.HashMap;
+import java.util.Map;
 
 /**
  * @author wwp
@@ -13,13 +15,15 @@ package com.wwp;
 public class Test {
 
     public static void main(String[] args) {
-        DoubleNode node = new DoubleNode(1);
-        DoubleNode node1 = new DoubleNode(2);
-        DoubleNode node2 = new DoubleNode(3);
-        node.setNext(node1);
-        node1.setNext(node2);
-        System.out.println(node);
-        node.reverseLinkeList(node);
+//        DoubleNode node = new DoubleNode(1);
+//        DoubleNode node1 = new DoubleNode(2);
+//        DoubleNode node2 = new DoubleNode(3);
+//        node.setNext(node1);
+//        node1.setNext(node2);
+//        System.out.println(node);
+//        node.reverseLinkeList(node);
+        HashMap m = new HashMap<>();
+        m.put(1,"1");
     }
 
 
