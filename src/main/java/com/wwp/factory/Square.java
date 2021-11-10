@@ -10,6 +10,6 @@ package com.wwp.factory;
 public class Square implements Shape {
     @Override
     public void draw() {
-        System.out.println(" this is SQUARE");
+        System.out.println("this is SQUARE");
     }
 }

@@ -1,10 +1,10 @@
-package com.wwp.abstractfactory;
+package com.wwp.abstractfactory.shapes;
 
 /**
  * @author wwp
  * @version 1.0.0
  * @ClassName Circil.java
- * @Description TODO
+ * @Description 圆形
  * @createTime 2020-11-10 15:35:00
  */
 public class Circle implements Shape {

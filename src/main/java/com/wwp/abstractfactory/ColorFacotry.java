@@ -1,5 +1,11 @@
 package com.wwp.abstractfactory;
 
+import com.wwp.abstractfactory.colors.Red;
+import com.wwp.abstractfactory.colors.Blue;
+import com.wwp.abstractfactory.colors.Color;
+import com.wwp.abstractfactory.colors.Green;
+import com.wwp.abstractfactory.shapes.Shape;
+
 /**
  * @author wwp
  * @version 1.0.0
@@ -7,18 +13,15 @@ package com.wwp.abstractfactory;
  * @Description TODO
  * @createTime 2020-11-10 16:51:00
  */
-public class ColorFacotry implements AbstractFactory{
+public class ColorFacotry implements AbstractFactory {
 
     @Override
     public Color getColor(int i) {
         if(i == 0 ){
-//            System.out.println("1 red");
             return new Red();
         }else if(i == 1){
-//            System.out.println("2 Green");
             return new Green();
         }else {
-//            System.out.println("2 Blue");
             return new Blue();
         }
     }

@@ -1,4 +1,4 @@
-package com.wwp.abstractfactory;
+package com.wwp.abstractfactory.shapes;
 
 /**
  * @author wwp

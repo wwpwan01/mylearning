@@ -1,5 +1,8 @@
 package com.wwp.abstractfactory;
 
+import com.wwp.abstractfactory.colors.Color;
+import com.wwp.abstractfactory.shapes.Shape;
+
 /**
  * @author wwp
  * @version 1.0.0
@@ -9,11 +12,11 @@ package com.wwp.abstractfactory;
  */
 public class Test {
     public static void main(String[] args) {
-        AbstractFactory facotryProducer = FacotryProducer.getFactory(1);
+        AbstractFactory facotryProducer = new ColorFacotry();
         Color color = facotryProducer.getColor(2);
         color.getColor();
-        AbstractFactory facotryProducer2 = FacotryProducer.getFactory(2);
-        Shape shana = facotryProducer2.getShana(2);
+        facotryProducer = new ShapeFactory();
+        Shape shana = facotryProducer.getShana(2);
         shana.draw();
     }
 }
