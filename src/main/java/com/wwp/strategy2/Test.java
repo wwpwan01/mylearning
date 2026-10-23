@@ -20,7 +20,7 @@ public class Test {
         ServcieImpl service2 = new ServcieImpl();
         // 在这里加入你的代码
 
-        service.crud(vo1, new StategyServceImpl2());
+        service2.crud(vo1, new StategyServceImpl2());
     }
 
 }

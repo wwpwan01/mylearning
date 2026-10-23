@@ -6,7 +6,7 @@ package com.wwp.strategy2;
  * @作者（你的名字）
  * @版本（一个版本号或者一个日期）
  */
-public class StategyServiceImpl implements Stategy<Vo,Stategy>
+public class StategyServiceImpl implements Stategy<Vo>
 {
 
     /**

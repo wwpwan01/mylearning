@@ -7,7 +7,7 @@ package com.wwp.strategy2;
  * @版本（一个版本号或者一个日期）
  */
 
-public interface Stategy<T,Y>
+public interface Stategy<T>
 {
     /**
      * 方法头的一个例子 - 使用你自己的声明来替换它

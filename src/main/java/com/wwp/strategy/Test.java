@@ -2,6 +2,9 @@ package com.wwp.strategy;
 
 import java.util.Arrays;
 
+/**
+ * 策略
+ */
 public class Test {
     public static void main(String[] args) {
 //        int[] a = {1,5,3,6,8,2,7,0};

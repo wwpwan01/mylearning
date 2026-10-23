@@ -6,7 +6,7 @@ package com.wwp.strategy2;
  * @作者（你的名字）
  * @版本（一个版本号或者一个日期）
  */
-public class ServcieImpl<T,Y>
+public class ServcieImpl<T>
 {
    
     /**
@@ -22,7 +22,7 @@ public class ServcieImpl<T,Y>
      * @参数 y，方法的一个样本参数
      * @返回 x，y的和 
      */
-    public void crud(T vo,Stategy<T,Y> t)
+    public void crud(T vo,Stategy<T> t)
     {
         // 在这里加入你的代码
         t.sampleMethod(vo);
